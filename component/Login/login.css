@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.left-container {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+login-containerr-text {
+  text-align: center;
+}
+
+.left-container p {
+  color: #525252;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.left-container input {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  background: rgba(240, 237, 255, 0.80);
+}
+
+.login-btn {
+  padding: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+    width: 124px;
+    height: 52px;
+    border-radius: 16px;
+    background: linear-gradient(100deg, #9181F4 -5.85%, #5038ED 109.55%);
+    box-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.16);
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background-image: url('/home/arsh/Desktop/Dev/assignment/src/component/Login/Rectangle 4.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-text {
+  position: relative;
+  width: 30%;
+  height: 27rem ;
+  padding: 20px;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 46px;
+  border: 2px solid #ffffff5d;
+  border-radius: 50px;
+}
+
+.image {
+    position: absolute;
+    width: 150%;
+    max-height: 100%;
+    object-fit: contain;
+    bottom: 0;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.left-container h2 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.left-container input :focus {
+  outline: none;
+}
+
+.username::placeholder {
+    background-image: url('/home/arsh/Desktop/Dev/assignment/src/component/imgs/Frame.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.password::placeholder {
+  background-image: url('/home/arsh/Desktop/Dev/assignment/src/component/imgs/Frame (1).svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 30px;
+}
+
+.thunder {
+  background-color: transparent;
+  border-radius: 500px;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.google,
+.facebook {
+  background-color: transparent;
+  width: 100%;
+  padding: 10px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #F0EDFF;
+  margin-top: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3;
+}
+
